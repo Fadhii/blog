@@ -1,7 +1,43 @@
 .cont{
-    margin-top: auto;
+    margin-top: 0;
     padding-top: 10em;
 }
-.head{
-    color: rgb(51, 227, 240);
+.head {
+    padding-bottom: 2em;
+    color: #032a9496;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  
+.card .title{
+    color: #ffffff;
+    padding-left: 1em;
+    margin: -1em;
+    margin-bottom: -2em;
+    padding-bottom: -2em;
+    text-align: left;
+    font-size: 1.5em;
+}
+.txt{
+    font-size: 1.6em;
+    color: #03e9f4;
+}
+.card{
+    
+    top: 50%;
+  left: 50%;
+  width: 400px;
+  
+  
+  
+  transform: translate(-50%, -50%);
+  background: #22212180 !important; ;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
 }

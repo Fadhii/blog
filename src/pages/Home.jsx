@@ -27,31 +27,33 @@ export default function App() {
   return (
     <div className='mx-5'>
       
-        
-        
-        <Container class='cnt'>
-          <div class='cont'>
+      <div class='cont'>
       <h1 className="text-center mt-50" class='head'>All Blogs</h1>
       </div>
+        
+        <Container class='cnt'>
+          
+      <div>
       {postss.map((posts,i)=>
       (
       <Card key={i} className='card mt-5 pt-5' style={{ width: '70rem' }}>
       
       <Card.Body>
       
-        <Card.Title>{posts.id}</Card.Title>
-        <Card.Text>
+        <Card.Title class='title'>{posts.id}</Card.Title>
+        <Card.Text class='txt'>
           {posts.title}
         </Card.Text>
         
-        <Button variant="primary">More...</Button>
+        <Button variant="primary" style={{backgroundColor:'#0000', color: 'white'}}>More...</Button>
       </Card.Body>
     </Card>
       )
-      )}
+      )}</div>
 
       
       </Container>
-    </div>
+      </div>
+    
   );
 }
